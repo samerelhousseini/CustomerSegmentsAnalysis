@@ -158,7 +158,7 @@ g = g.map_offdiag(plt.scatter)
 
 
 
-![png](imgs/outpput_5_1.png)
+![png](imgs/output_5_1.png)
 
 
 ### Implementation: Selecting Samples
@@ -242,7 +242,7 @@ sb.heatmap((samples-data.mean())/data.std(ddof=0), annot=True, cbar=False, squar
 
 
 
-![png](imgs/outpput_7_3.png)
+![png](imgs/output_7_3.png)
 
 
 ### Question 1
@@ -305,7 +305,7 @@ plt.show()
 
 
 
-![png](imgs/outpput_11_1.png)
+![png](imgs/output_11_1.png)
 
 
 ### Question 2
@@ -333,7 +333,7 @@ pd.scatter_matrix(data, alpha = 0.3, figsize = (14,8), diagonal = 'kde');
 
 
 
-![png](imgs/outpput_15_1.png)
+![png](imgs/output_15_1.png)
 
 
 ### Question 3
@@ -373,7 +373,7 @@ pd.scatter_matrix(log_data, alpha = 0.3, figsize = (14,8), diagonal = 'kde');
 
 
 
-![png](imgs/outpput_20_1.png)
+![png](imgs/output_20_1.png)
 
 
 ### Observation
@@ -1162,7 +1162,7 @@ pd.scatter_matrix(good_data, alpha = 0.3, figsize = (14,8), diagonal = 'kde');
 
 
 
-![png](imgs/outpput_27_1.png)
+![png](imgs/output_27_1.png)
 
 
 
@@ -1174,7 +1174,7 @@ g = g.map_offdiag(plt.scatter)
 ```
 
 
-![png](imgs/outpput_28_0.png)
+![png](imgs/output_28_0.png)
 
 
 ### Question 4
@@ -1215,7 +1215,7 @@ pca_results = vs.pca_results(good_data, pca)
 ```
 
 
-![png](imgs/outpput_33_0.png)
+![png](imgs/output_33_0.png)
 
 
 ### Question 5
@@ -1430,7 +1430,7 @@ vs.biplot(good_data, reduced_data, pca)
 
 
 
-![png](imgs/outpput_43_1.png)
+![png](imgs/output_43_1.png)
 
 
 ### Observation
@@ -1550,7 +1550,7 @@ vs.cluster_results(reduced_data, preds, centers, pca_samples)
 ```
 
 
-![png](imgs/outpput_53_0.png)
+![png](imgs/output_53_0.png)
 
 
 ### Implementation: Data Recovery
@@ -1625,7 +1625,7 @@ sb.heatmap((true_centers-data.mean())/data.std(ddof=1), annot=True, cbar=False, 
 
 
 
-![png](imgs/outpput_55_2.png)
+![png](imgs/output_55_2.png)
 
 
 ### Question 8
@@ -1771,7 +1771,7 @@ vs.channel_results(reduced_data, outliers, pca_samples)
 ```
 
 
-![png](imgs/outpput_68_0.png)
+![png](imgs/output_68_0.png)
 
 
 ### Question 12
